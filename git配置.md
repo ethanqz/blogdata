@@ -31,7 +31,7 @@ windows git bash
 ```
 git config --global credential.helper store
 ```
-> 注：<font color=red>msys2使用的是windows的配置方法</font>
+> 注：<font color=red>msys2和termux都是使用的是windows的配置方法</font>
 
 # ssh key配置
 ## 在客户主机生成key
