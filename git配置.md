@@ -6,12 +6,14 @@ tags: [git,ssh]
 ---
 # 配置用户名和Email
 > 用户名和Email是用于代码提交日志标识。
+
 ```
 git config --global user.name "name" 
 git config --global user.email "mailaddress" 
 ```
 # 配置git push
 > 如果要使用git进行推送,则必须配置push.default ,否则推送失败
+
 ```
 git config --global push.default simple
 ```
@@ -23,16 +25,18 @@ git config  user.email "mailaddress"
 # 缓存https连接用户名和密码
 linux
 ```
-git config--global credential.helper  'cache --timeout 3600'
+git config --global credential.helper  'cache --timeout 3600'
 ```
 windows git bash
 ```
 git config --global credential.helper store
 ```
 > 注：<font color=red>msys2使用的是windows的配置方法</font>
+
 # ssh key配置
 ## 在客户主机生成key
 > 运行以下命令，会在~/.ssh/下生成id_rsa.pub文件。
+
 ```
 ssh-keygen -t rsa 
 ```
