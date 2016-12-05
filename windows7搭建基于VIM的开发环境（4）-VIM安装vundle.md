@@ -45,7 +45,7 @@ Bundle 'gmarik/vundle'
 filetype plugin indent on     " required! 
 ```
 # 使用vundle安装插件
->在github上的插件, 如过是vim-scripts账户下的 插件 , 直接写;
+>在github上的插件, 如果是vim-scripts账户下的 插件 , 直接写;
 >在github上的插件, 如果不是 vim-scripts账户下的插件, 写成 "账户名/插件名"
 >安装：新增配置后，重新打开vim,在命令模式下输入命令PluginInstall。
 >移除：删除插件配置后，重打开vim，在命令模式下输入命名PluginClean。

@@ -1,5 +1,5 @@
 ---
-title: windows7搭建基于VIM的开发环境（4）- VIM安装vundle
+title: windows7搭建基于VIM的开发环境（5）- VIM安装开发环境所需插件
 categories: 开发环境搭建
 tags: [vim,windows,x86_64]
 
