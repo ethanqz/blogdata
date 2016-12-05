@@ -1,7 +1,7 @@
 ---
 title: ubuntu下hexo+next博客搭建
 categories: 博客管理
-tags: [hexo,next]
+tags: [hexo,next,npm,node.js]
 
 ---
 > 我使用的环境是ubuntu16.04，其他环境未做验证。

@@ -1,7 +1,7 @@
 ---
 title: vim中cscope和常用快捷键的使用
 categories: vim使用技巧
-tags: [vim,cscope，leader]
+tags: [vim,cscope,leader]
 
 ---
 > 由于我主要是使用vim开发python，因此配置主要针对python场景，如果使用其他语言，可以针对不同语言做修改。

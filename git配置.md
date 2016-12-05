@@ -1,7 +1,7 @@
 ---
 title: git配置
 categories: 开发环境搭建
-tags: [git,ssh]
+tags: [git,ssh,github]
 
 ---
 # 配置用户名和Email

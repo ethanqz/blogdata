@@ -43,7 +43,6 @@ Bundle 'shougo/neocomplete'
 Bundle 'kien/ctrlp.vim'
 Bundle 'SuperTab'
 Bundle 'davidhalter/jedi-vim'
-Bundle 'cscope.vim'
 Bundle 'chazy/cscope_maps'
 ```
 在_vimrc增加插件列表配置后，重启vim，运行:PluginInstall，待安装完成后，按照以下步骤增加各插件的配置。
