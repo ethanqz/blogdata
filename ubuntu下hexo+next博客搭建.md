@@ -4,15 +4,16 @@ categories: 博客管理
 tags: [hexo,next]
 
 ---
-> 我使用的环境是ubuntu16.04，其他环境未做验证。
+> 我使用的环境是ubuntu16.04，其他环境未做验证。
 
 # 安装npm
 ```
 sudo apt-get install npm
 sudo apt-get install nodejs-legacy //安装后有/usr/bin/node，不安装会导致npm安装hexo失败
-````
+```
 # 修改npm源
 > 添加npm淘宝源，修改完在当前账户下默认使用这个源。
+
 ```
 vim ~/.npmrc
 registry = https://registry.npm.taobao.org
@@ -27,10 +28,10 @@ mkdir blog
 cd blog
 hexo init
 ```
-#安装next主题
-````
+# 安装next主题
+```
 git clone https://github.com/iissnan/hexo-theme-next themes/next
-````
+```
 
 # 修改hexo配置文件
 > hexo配置文件中只有以下几项是需要关注的，其他的暂时不需要用到，如果需要配置其他功能请查看官网帮助。

@@ -7,12 +7,12 @@ tags: [vim,cscope，leader]
 > 由于我主要是使用vim开发python，因此配置主要针对python场景，如果使用其他语言，可以针对不同语言做修改。
 
 # cscope命令
-windows和linux下生成python的cscope.files
+windows和linux下生成python的cscope.files：
 ```
 dir /s /b *.py > cscope.files
 find . -name '*.py' >cscope.files
 ```
-windows和linux下生成c的cscope.files
+windows和linux下生成c的cscope.files：
 ```
 dir /s /b *.c,*.cpp,*.h > cscope.files
 find ./ -name "*.c" -o -name "*.cpp" -o -name "*.h" >cscope.files
@@ -25,7 +25,7 @@ cscope -Rbkq
 ```
 cscope -Rbk
 ```
-在vim下添加cscope.out
+在vim下添加cscope.out：
 ```
 :cs add cscope.out
 ```
@@ -56,6 +56,7 @@ nmap <leader>w :w<CR>
 
 # cscope_maps.vim
 > 针对cscope的快捷键映射文件，可以直接看下实现，写的很清楚。
+
 ```
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CSCOPE settings for vim           
