@@ -27,6 +27,8 @@ sudo npm install -g hexo-cli
 mkdir blog
 cd blog
 hexo init
+npm install
+npm install hexo-deployer-git --save
 ```
 # 安装next主题
 ```
