@@ -1,5 +1,6 @@
 ---
 title: windows7搭建基于VIM的开发环境（4）- VIM安装vundle
+date: 2016-12-06 21:30:00
 categories: 开发环境搭建
 tags: [vim,windows,x86_64]
 

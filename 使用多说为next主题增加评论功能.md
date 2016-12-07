@@ -1,5 +1,6 @@
 ---
 title: 使用多说为next主题增加评论功能
+date: 2016-12-06 21:53:00
 categories: 博客管理
 tags: [hexo,next,多说]
 

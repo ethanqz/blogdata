@@ -1,5 +1,6 @@
 ---
 title: ubuntu下hexo+next博客搭建
+date: 2016-12-06 21:52:00
 categories: 博客管理
 tags: [hexo,next,npm,node.js]
 

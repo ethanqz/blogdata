@@ -1,5 +1,6 @@
 ---
 title: windows7搭建基于VIM的开发环境（2）- 编译64位且支持python的VIM版本并安装
+date: 2016-12-06 17:46:00
 categories: 开发环境搭建
 tags: [vim,windows,x86_64]
 

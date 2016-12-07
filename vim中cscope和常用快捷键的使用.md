@@ -1,5 +1,6 @@
 ---
 title: vim中cscope和常用快捷键的使用
+date: 2016-12-06 21:36:00
 categories: vim使用技巧
 tags: [vim,cscope,leader]
 

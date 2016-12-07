@@ -1,6 +1,7 @@
 ---
 title: git配置
 categories: 开发环境搭建
+date: 2016-12-06 21:35:00
 tags: [git,ssh,github]
 
 ---
