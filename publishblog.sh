@@ -5,10 +5,11 @@ do
 mds=$mds,$md
 done
 echo $mds
-if [[ $mds =~ .*,.* ]]
+echo "$mds"|grep -q "md"
+if [ $? -eq 0 ]
 then
 echo "publish to blogdata"
-cp blogdata/*.md ~/blogdata/
+cp ~/qz757.github.com/blogdata/*.md ~/blogdata/
 cd ~/blogdata
 git add -A
 git commit -m "auto publish"$mds
