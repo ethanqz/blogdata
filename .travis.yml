@@ -7,7 +7,7 @@ script:
   - cp ../blogdata/*.md source/_posts/
   - git add -A
   - git commit -m "auto publish"
-  - git push  --force --quiet "https://${token}@github.com/qz757/qz757.github.com.git" hexo:hexo
+  - git push --force --quiet "https://${GH_TOKEN}@github.com/qz757/qz757.github.com.git" hexo:hexo
 
 branches:
   only:
