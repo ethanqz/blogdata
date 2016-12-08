@@ -4,7 +4,7 @@ script:
   - git config user.email "qz757@sina.com"
   - git clone "https://github.com/qz757/qz757.github.com.git"
   - cd qz757.github.com
-  - mv ../blogdata/newblog/*.md source/_posts/
+  - cp ../blogdata/*.md source/_posts/
   - git add -A
   - git commit -m "auto publish"
   - git push "https://${token}@github.com/qz757/qz757.github.com.git" hexo:hexo
@@ -12,6 +12,3 @@ script:
 branches:
   only:
     - master
-env:
- global:
-   - GH_REF: github.com/qz757/blogdata.git
