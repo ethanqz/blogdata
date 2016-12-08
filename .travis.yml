@@ -1,13 +1,13 @@
 script:
   - cd ..
-  - git config user.name "CI"
-  - git config user.email "qz757@sina.com"
   - git clone "https://github.com/qz757/qz757.github.com.git"
   - cd qz757.github.com
+  - git config user.name "CI"
+  - git config user.email "qz757@sina.com"
   - cp ../blogdata/*.md source/_posts/
   - git add -A
   - git commit -m "auto publish"
-  - git push "https://${token}@github.com/qz757/qz757.github.com.git" hexo:hexo
+  - git push  --force --quiet "https://${token}@github.com/qz757/qz757.github.com.git" hexo:hexo
 
 branches:
   only:
